@@ -1,7 +1,7 @@
 React Based. Courses application, service where users can subscribe for some courses , add new and update their skills
 
 to install project run 'npm install'
-to start application run 'npm start' project will started on localhost:9000
+to start application run 'npm start'  (application will starts on ```localhost:9000```)
 to start REST API server run 'npm run api' in separate console.
 
 
