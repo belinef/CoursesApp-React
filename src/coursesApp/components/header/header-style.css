@@ -1,0 +1,38 @@
+.header {
+    position: relative;
+    background: aliceblue;
+    padding: 10px 35px;
+}
+
+.header__logo {
+    margin-right: 20px;
+}
+
+.header__name {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 20px;
+    vertical-align: bottom;
+    font-style: italic;
+}
+
+.user {
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    display: inline-block;
+}
+
+.user__name {
+    margin-right: 25px;
+    font-size: 2em;
+    vertical-align: middle;
+    font-style: italic;
+    color : indigo;
+}
+
+@media screen and (max-width: 480px) {
+    .user__name {
+        font-size: 0;
+    }
+}

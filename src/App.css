@@ -1,0 +1,79 @@
+.App {
+    text-align: center;
+    height: 100%;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite .3s ease-in-out;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.add-button {
+    display: inline-block;
+    padding: 5px 20px;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+    margin-left: 20px;
+    background: darkorange;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.add-button:hover {
+    background: darkgoldenrod;
+}
+
+.input-todo {
+    width: 300px;
+    height: 25px;
+    font-size: 16px;
+    text-indent: 5px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation__item {
+    display: inline-block;
+}
+.navigation__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.navigation__link {
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    background: darkcyan;
+    color: #fff;
+}
+
+
+.navigation__link:hover {
+    background: deepskyblue;
+}
+

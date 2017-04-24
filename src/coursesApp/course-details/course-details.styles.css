@@ -1,0 +1,18 @@
+.course-details {
+    padding: 20px;
+}
+.course-details__label {
+    font-weight: bold;
+}
+.course-details__edit {
+    padding: 10px 25px;
+}
+.authors__label {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.authors__list {
+    display: inline-block;
+    width: 40%;
+}

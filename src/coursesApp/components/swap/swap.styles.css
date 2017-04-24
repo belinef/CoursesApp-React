@@ -1,0 +1,102 @@
+.swap .swap-show-list {
+    max-height: 220px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.swap {
+    min-height: 150px;
+}
+
+.swap-show-list--empty {
+    cursor: default;
+    pointer-events : none;
+}
+
+.authors-edit__list {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+}
+
+.authors-edit__list--available {
+    width: 45%;
+}
+
+.swap__head {
+    text-align: center;
+}
+
+.authors-edit {
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.swap-show-list .authors-edit.active,
+.swap-show-list .authors-edit.active:hover,
+.swap-show-list .authors-edit:hover {
+    border-color: #fff;
+}
+
+
+.authors-edit__list .authors-edit--actual.active {
+    background-color: #8a6d3b !important;
+}
+
+.authors-edit__list .author-edit--search.active {
+    background-color: #31708f !important;
+}
+
+.authors-edit--actual:hover {
+    background-color: #faf2cc !important;
+}
+
+.author-edit--search:hover {
+    background-color: #c4e3f3 !important;
+}
+
+.authors-controls {
+    display: inline-block;
+    bottom: -40px;
+    position: relative;
+}
+
+.authors-controls__button {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.authors-controls__button--add:hover {
+    background: goldenrod !important;
+}
+
+.authors-controls__button--remove:hover {
+    background: rosybrown !important;
+}
+
+.authors-controls .authors-controls__item {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.authors-search {
+    padding: 2px;
+}
+
+.authors-search__input {
+    display: inline-block !important;
+    width: 40% !important;
+}
+
+@keyframes spinner {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.search--loading {
+    animation: spinner 2s linear infinite ;
+}
